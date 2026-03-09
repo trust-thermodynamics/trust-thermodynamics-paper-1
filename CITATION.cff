@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Mean Time to Epistemic Failure: The Autoimmune Paradox and 72-Hour Decay Dynamics in Autonomous AI Systems"
+type: article
+authors:
+  - family-names: "Doffing"
+    given-names: "Jason"
+    affiliation: "Probabilistic Resilience Engineering"
+date-released: 2026-03-09
+license: CC-BY-4.0
+repository-code: "https://github.com/trust-thermodynamics/trust-thermodynamics-paper-1"
+keywords:
+  - epistemic integrity
+  - AI safety
+  - multi-agent systems
+  - hallucination cascades
+  - trust thermodynamics
+  - MTEF
+  - autoimmune paradox
+  - chaos engineering
+abstract: "We introduce Mean Time to Epistemic Failure (MTEF), the first temporal reliability metric for measuring how long autonomous AI systems maintain factual coherence under iterative processing. Through controlled telephone-game experiments across four major language model architectures, we demonstrate that multi-agent AI systems exhibit predictable epistemic decay following quantifiable thermodynamic regimes. Our principal finding—the Autoimmune Paradox—reveals that governed systems decay 2.2x faster than ungoverned systems."
