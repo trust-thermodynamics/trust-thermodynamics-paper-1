@@ -1,0 +1,59 @@
+# Paper 1 (MTEF) — CC BY 4.0
+
+## 1. Zenodo record metadata
+
+On the published record, choose **Edit** (metadata edits do not create a new
+version or DOI). Under **Licenses**, remove whatever is there and select
+**Creative Commons Attribution 4.0 International** (`CC-BY-4.0`). Under
+**Access**, confirm **Open**. Save and **Publish** the metadata change.
+
+## 2. Statement for the record's Description field
+
+Paste at the end of the Zenodo description (plain text or HTML):
+
+```
+This work is licensed under a Creative Commons Attribution 4.0 International
+License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+© 2026 Jason Doffing. You may share and adapt this work for any purpose,
+including commercially, provided you give appropriate credit, link to the
+license, and indicate if changes were made.
+```
+
+HTML form, if the description is HTML:
+
+```html
+<p>This work is licensed under a
+<a href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative
+Commons Attribution 4.0 International License (CC BY 4.0)</a>.
+&copy; 2026 Jason Doffing.</p>
+```
+
+## 3. Notice for the paper itself
+
+Add to the front matter (title page footer or the line under the abstract) so
+the PDF carries the license wherever it is copied. Adding it requires a new
+file, which on Zenodo means a **new version** (the concept DOI stays the same;
+the version gets its own DOI). If you would rather not cut a new version, the
+record-level license in step 1 is sufficient on its own.
+
+```
+© 2026 Jason Doffing. This work is licensed under CC BY 4.0
+(https://creativecommons.org/licenses/by/4.0/).
+```
+
+## 4. Suggested citation line (for the record and the paper)
+
+```
+Doffing, J. (2026). <Paper 1 title>. Zenodo. https://doi.org/<Paper 1 DOI>
+```
+
+Fill in the title and DOI from the record.
+
+## Notes
+
+- Zenodo publishes the license as machine-readable metadata, so no LICENSE
+  file needs to be uploaded alongside the PDF.
+- The full legal code is in `../cc-by-4.0/LICENSE` if you want it attached to
+  any mirror of the paper (jasondoffing.com, the Institute's Phase Space page).
+- Assignment to the IP Vault at Step 2 does not change any of this: CC BY 4.0
+  is irrevocable, and the new owner inherits the grant already made.
